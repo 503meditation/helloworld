@@ -1,62 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="/helloworld/assets/css/styles.css/> <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/helloworld/feed.xml" title="helloworld" /> <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>helloworld</title>
-<meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="helloworld" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/helloworld/releases.html" />
-<meta property="og:url" content="http://localhost:4000/helloworld/releases.html" />
-<meta property="og:site_name" content="helloworld" />
-<script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/helloworld/releases.html","headline":"helloworld","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+---
+layout: default
+---
 
-  </head>
-  <body>
-    <nav>
-  
-    <a href="/helloworld/index.html" >Home</a>
-  
-    <a href="/helloworld/about.html" >About</a>
-  
-    <a href="/helloworld/blog.html" >Blog</a>
-  
-    <a href="/helloworld/releases.html" >Releases</a>
-  
-</nav>
- <h1>Releases</h1>
+<h1>Releases</h1>
 
 <ul>
-  
+  {% for releases in site.releases %}
   <li>
     <h2>
       <a
-        href="/helloworld/releases/guru001.html"
-        >Verge EP</a
+        href="{{ releases.url | prepend:
+    site.baseurl }}"
+        >{{ releases.name }}</a
       >
     </h2>
-    <h3>GURU001</h3>
-    <p><p>Jill is an avid fruit grower based in the south of France.</p>
-</p>
+    <h3>{{ releases.position }}</h3>
+    <p>{{ releases.content | markdownify }}</p>
   </li>
-  
-  <li>
-    <h2>
-      <a
-        href="/helloworld/releases/guru002.html"
-        >Bupp EP</a
-      >
-    </h2>
-    <h3>GURU002</h3>
-    <p><p>Ted has been eating fruit since he was baby.</p>
-</p>
-  </li>
-  
+  {% endfor %}
 </ul>
-
-  </body>
-</html>

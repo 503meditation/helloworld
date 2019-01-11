@@ -1,0 +1,21 @@
+collections:
+  releases:
+    output: true
+
+baseurl: /helloworld
+
+defaults:
+  - scope:
+      path: ""
+      type: "releases"
+    values:
+      layout: "releases"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

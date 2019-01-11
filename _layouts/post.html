@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }} {% assign releases = site.releases | where:
+  'short_name', page.releases | first %} {% if releases %} -
+  <a
+    href="{{ releases.url | prepend:
+  site.baseurl }}"
+    >{{ releases.name }}</a
+  >
+  {% endif %}
+</p>
+
+{{ content }}
