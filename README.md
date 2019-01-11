@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Setup
 
-You can use the [editor on GitHub](https://github.com/503meditation/hellowolrd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$ rm -rf dist
+$ echo "_site/" >> .gitignore
+$ git worktree add _site gh-pages
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Making changes
 
-### Jekyll Themes
+```
+$ make # or what ever you run to populate _site
+$ cd _site
+$ git add --all
+$ git commit -m "Deploy to gh-pages"
+$ git push origin gh-pages
+$ cd ..
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/503meditation/hellowolrd/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Notes
 
-### Support or Contact
+git worktree feature has its own garbage collection so if dist is deleted it will not affect much and can be recreated as needed. If you want it to go away you can use git worktree prune See man pages on it.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Makefile
+
+To make this stream line the following Makefile can be used to automate this process:
+
+```
+.PHONY: all deploy clean
+
+all: dist dist/index.html
+
+dist:
+	git worktree add dist gh-pages
+
+# Replace this rule with whatever builds your project
+dist/index.html: src/index.html
+	cp $< $@
+
+deploy: all
+	cd dist && \
+	git add --all && \
+	git commit -m "Deploy to gh-pages" && \
+	git push origin gh-pages
+
+# Removing the actual dist directory confuses git and will require a git worktree prune to fix
+clean:
+	rm -rf dist/*
+```
