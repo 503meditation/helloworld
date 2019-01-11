@@ -1,15 +1,18 @@
-## Setup
+## Initial Git Setup
 
 ```
-$ rm -rf dist
+$ cd ../helloworld
+$ rm -rf _site
 $ echo "_site/" >> .gitignore
 $ git worktree add _site gh-pages
 ```
 
-## Making changes
+## Publish New Build to Pages
 
 ```
-$ make # or what ever you run to populate _site
+$ cd ../helloworld
+$ jeykll serve
+# quit local server to continue
 $ cd _site
 $ git add --all
 $ git commit -m "Deploy to gh-pages"
@@ -19,9 +22,11 @@ $ cd ..
 
 ### Notes
 
-git worktree feature has its own garbage collection so if dist is deleted it will not affect much and can be recreated as needed. If you want it to go away you can use git worktree prune See man pages on it.
+checked into master in `../helloworld/` root folder and checked into gh-pages branch on `../helloworld/_site`
 
-### Makefile
+git worktree feature has its own garbage collection so if `_site` is deleted it will not affect much and can be recreated as needed. If you want it to go away you can use git worktree prune See man pages on it.
+
+#### Makefile (TODO)
 
 To make this stream line the following Makefile can be used to automate this process:
 
