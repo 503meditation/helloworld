@@ -2,7 +2,9 @@
   link: /helloworld/index.html
 - name: About
   link: /helloworld/about.html
-- name: Blog
-  link: /helloworld/blog.html
 - name: Releases
   link: /helloworld/releases.html
+- name: Blog
+  link: /helloworld/blog.html
+- name: Shop
+  link: https://503meditation.bandcamp.com/
