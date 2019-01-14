@@ -2,7 +2,7 @@
 
 jekyll build
 git add --all
-git commit -m "auto commit to master"
+git commit -m "$1"
 git push origin master
 cd _site
 git add --all
