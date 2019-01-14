@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd _site
+git add --all
+git commit -m "auto deploy to gh-pages"
+git push origin gh-pages
+cd ..
