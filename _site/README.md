@@ -18,7 +18,7 @@ $ cd ../helloworld
 $ ./publish
 ```
 
-or manually:
+which is automating the following commands, which can be achieved manually:
 
 ```
 $ cd _site
@@ -28,7 +28,7 @@ $ git push origin gh-pages
 $ cd ..
 ```
 
-or full ordered dual commits:
+_or_ carry out dual commits to both repos from new build(!):
 
 ```
 $ cd ../helloworld
