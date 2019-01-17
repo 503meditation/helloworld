@@ -92,7 +92,7 @@ print_hi('Tom')
 
 #### Notes
 
-checked into master in `../helloworld/` root folder and checked into gh-pages branch on `../helloworld/_site`
+i'm checked into master in `../helloworld/` root folder and checked into gh-pages branch on `../helloworld/_site`
 
 git worktree feature has its own garbage collection so if `_site` is deleted it will not affect much and can be recreated as needed. If you want it to go away you can use git worktree prune See man pages on it.
 
