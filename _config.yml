@@ -2,6 +2,8 @@ collections:
   releases:
     output: true
 
+repository: 503meditation.github.io/helloworld
+
 baseurl: /helloworld
 
 defaults:
