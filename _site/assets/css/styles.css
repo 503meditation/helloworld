@@ -1,6 +1,8 @@
-.current { color: green; }
+.current { color: green; font-weight: bold; }
 
 nav { font-family: "Inconsolata", monospace; display: block; text-align: center; }
+
+nav:hover { background-color: #FE59FE; }
 
 h1 { font-family: "Inconsolata", monospace; }
 
@@ -11,7 +13,5 @@ h3 { font-family: "Inconsolata", monospace; }
 p { font-family: "Inconsolata", monospace; }
 
 li { font-family: "Inconsolata", monospace; }
-
-li a:hover { background-color: #111111; }
 
 guru { display: block; text-align: center; margin: 6em; font-size: x-large; }

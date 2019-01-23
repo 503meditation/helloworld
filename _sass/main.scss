@@ -1,11 +1,16 @@
 .current {
   color: green;
+  font-weight: bold;
 }
 
 nav {
   font-family: "Inconsolata", monospace;
   display: block;
   text-align: center;
+}
+
+nav:hover {
+  background-color: #FE59FE;
 }
 
 h1 {
@@ -28,9 +33,7 @@ li {
   font-family: "Inconsolata", monospace;
 }
 
-li a:hover {
-  background-color: #111111;
-}
+
 
 guru {
   display: block;
