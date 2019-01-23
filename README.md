@@ -1,6 +1,6 @@
 ## Initial Git Setup
 
-```
+```bash
 $ cd ../helloworld
 $ rm -rf _site
 $ echo "_site/" >> .gitignore
@@ -13,14 +13,14 @@ make changes to master and use `jekyll build` to generate new `_site` folder
 
 use shortcut:
 
-```
+```bash
 $ cd ../helloworld
 $ ./publish
 ```
 
 which is automating the following commands, which can be achieved manually:
 
-```
+```bash
 $ cd _site
 $ git add --all
 $ git commit -m "Deploy to gh-pages"
@@ -30,7 +30,7 @@ $ cd ..
 
 _or_ carry out dual commits to both repos from new build(!):
 
-```
+```bash
 $ cd ../helloworld
 $ ./fullpublish
 ```
@@ -92,7 +92,7 @@ print_hi('Tom')
 
 #### Notes
 
-checked into master in `../helloworld/` root folder and checked into gh-pages branch on `../helloworld/_site`
+i'm checked into master in `../helloworld/` root folder and checked into gh-pages branch on `../helloworld/_site`
 
 git worktree feature has its own garbage collection so if `_site` is deleted it will not affect much and can be recreated as needed. If you want it to go away you can use git worktree prune See man pages on it.
 
@@ -100,7 +100,7 @@ git worktree feature has its own garbage collection so if `_site` is deleted it 
 
 To make this stream line the following Makefile can be used to automate this process:
 
-```
+```makefile
 .PHONY: all deploy clean
 
 all: dist dist/index.html
