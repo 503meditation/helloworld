@@ -4,6 +4,8 @@
 
 nav {
   font-family: "Inconsolata", monospace;
+  display: block;
+  text-align: center;
 }
 
 h1 {
@@ -24,4 +26,8 @@ p {
 
 li {
   font-family: "Inconsolata", monospace;
+}
+
+li a:hover {
+  background-color: #111111;
 }

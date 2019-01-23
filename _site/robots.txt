@@ -1,1 +1,1 @@
-Sitemap: /helloworld/sitemap.xml
+Sitemap: http://localhost:4000/helloworld/sitemap.xml

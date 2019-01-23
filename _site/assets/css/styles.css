@@ -1,6 +1,6 @@
 .current { color: green; }
 
-nav { font-family: "Inconsolata", monospace; }
+nav { font-family: "Inconsolata", monospace; display: block; text-align: center; }
 
 h1 { font-family: "Inconsolata", monospace; }
 
@@ -11,3 +11,5 @@ h3 { font-family: "Inconsolata", monospace; }
 p { font-family: "Inconsolata", monospace; }
 
 li { font-family: "Inconsolata", monospace; }
+
+li a:hover { background-color: #111111; }
