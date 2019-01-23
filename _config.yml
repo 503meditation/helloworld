@@ -4,7 +4,7 @@ collections:
 
 repository: 503meditation.github.io/helloworld
 
-baseurl: /helloworld
+# baseurl: /helloworld
 
 defaults:
   - scope:

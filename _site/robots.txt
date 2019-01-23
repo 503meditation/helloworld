@@ -1,1 +1,1 @@
-Sitemap: /helloworld/sitemap.xml
+Sitemap: /sitemap.xml
