@@ -1,10 +1,10 @@
 - name: Home
-  link: /helloworld/
+  link: /
 - name: About
-  link: /helloworld/about
+  link: /about
 - name: Releases
-  link: /helloworld/releases
+  link: /releases
 - name: Blog
-  link: /helloworld/blog
+  link: /blog
 - name: Shop
   link: https://503meditation.bandcamp.com/
