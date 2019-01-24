@@ -6,6 +6,13 @@ repository: 503meditation.github.io/helloworld
 
 url: https://gurumeditation.zone
 
+include:
+  -CNAME
+
+exclude:
+ - ".gitignore"
+ - readme.md
+
 # baseurl: /helloworld
 
 defaults:
