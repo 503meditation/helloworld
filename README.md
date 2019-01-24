@@ -1,3 +1,7 @@
+# (づ￣ ³￣)づ
+
+https://gurumeditation.zone
+
 ## Initial Git Setup
 
 ```bash
