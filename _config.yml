@@ -10,7 +10,6 @@ keep_files:
  - CNAME
 
 exclude:
- - ".gitignore"
  - README.md
  - Gemfile
  - Gemfile.lock
