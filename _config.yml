@@ -6,16 +6,16 @@ repository: 503meditation.github.io/helloworld
 
 url: https://gurumeditation.zone
 
-include:
- - "CNAME"
- - "favicon.jpeg"
-
-exclude:
- - "README.md"
- - "Gemfile"
- - "Gemfile.lock"
- - "publish"
- - "fullpublish"
+# include:
+#  - "CNAME"
+#  - "favicon.jpeg"
+#
+# exclude:
+#  - "README.md"
+#  - "Gemfile"
+#  - "Gemfile.lock"
+#  - "publish"
+#  - "fullpublish"
 
 # baseurl: /helloworld
 
