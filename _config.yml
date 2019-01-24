@@ -12,6 +12,10 @@ include:
 exclude:
  - ".gitignore"
  - readme.md
+ - Gemfile
+ - Gemfile.lock
+ - publish
+ - fullpublish
 
 # baseurl: /helloworld
 
