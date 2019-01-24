@@ -8,6 +8,7 @@ url: https://gurumeditation.zone
 
 include:
  - CNAME
+ - favicon.jpeg
 
 exclude:
  - README.md
