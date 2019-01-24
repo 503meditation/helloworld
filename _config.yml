@@ -11,7 +11,7 @@ include:
 
 exclude:
  - ".gitignore"
- - readme.md
+ - README.md
  - Gemfile
  - Gemfile.lock
  - publish
