@@ -14,7 +14,7 @@ p { font-family: "Inconsolata", monospace; }
 
 li { font-family: "Inconsolata", monospace; }
 
-guru { display: block; position: relative; text-align: center; margin-left: 42%; margin-top: 15%; font-size: x-large; }
+guru { display: block; width: 100%; position: relative; text-align: center; margin-top: 15%; font-size: xx-large; }
 
 @media only screen and (max-width: 700px) { nav { font-size: x-large; } }
 @-webkit-keyframes hvr-hang { 0% { -webkit-transform: translateY(8px); transform: translateY(8px); }
