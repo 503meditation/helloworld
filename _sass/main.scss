@@ -42,7 +42,15 @@ guru {
   font-size: x-large;
 }
 
-// below are Hover.css v2 imports
+///// mobile responsive properties
+
+@media only screen and (max-width: 700px) {
+  nav {
+    font-size: x-large;
+  }
+}
+
+///// below are Hover.css v2 imports
 
 @-webkit-keyframes hvr-hang {
   0% {
