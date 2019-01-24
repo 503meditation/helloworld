@@ -16,6 +16,7 @@ exclude:
  - "Gemfile.lock"
  - "publish"
  - "fullpublish"
+ - ".DS_Store"
 
 # baseurl: /helloworld
 
