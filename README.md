@@ -1,6 +1,6 @@
 # (づ￣ ³￣)づ
 
-gurumeditation.zone
+https://gurumeditation.zone
 
 ## Initial Git Setup
 
