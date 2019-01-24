@@ -1,6 +1,6 @@
 ---
 short_name: guru002
-name: Bupp EP
+name: "? - Bupp EP"
 position: GURU002
 ---
 

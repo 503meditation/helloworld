@@ -1,6 +1,6 @@
 .current { color: #FE59FE; font-weight: bold; }
 
-nav { font-family: "Inconsolata", monospace; display: block; text-align: center; font-size: 2vw; }
+nav { font-family: "Inconsolata", monospace; display: block; text-align: center; font-size: 2vw; padding-bottom: 3vw; }
 
 nav a { padding-right: 0.3vw; }
 
@@ -15,6 +15,8 @@ p { font-family: "Inconsolata", monospace; }
 li { font-family: "Inconsolata", monospace; }
 
 guru { font-family: Lucida Grande; display: block; width: 100%; position: relative; text-align: center; margin-top: 15%; font-size: 6vw; }
+
+.label { width: 50%; margin: 3%; }
 
 @media only screen and (max-width: 700px) { nav { font-size: x-large; } }
 @-webkit-keyframes hvr-hang { 0% { -webkit-transform: translateY(20px); transform: translateY(20px); }
