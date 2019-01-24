@@ -1,5 +1,5 @@
 .current {
-  color: #87FB84;
+  color: #FE59FE;
   font-weight: bold;
 }
 
@@ -7,18 +7,19 @@ nav {
   font-family: "Inconsolata", monospace;
   display: block;
   text-align: center;
+  font-size: 2vw;
 }
 
-nav a:hover {
-  background-color: #FE59FE;
+nav a {
+  padding-right: 0.3vw;
 }
 
 h1 {
-  font-family: "Inconsolata", monospace;
+  font-family: 'VT323', monospace;
 }
 
 h2 {
-  font-family: "Inconsolata", monospace;
+  font-family: 'VT323', monospace;
 }
 
 h3 {
@@ -34,12 +35,13 @@ li {
 }
 
 guru {
+  font-family: Lucida Grande;
   display: block;
   width: 100%;
   position: relative;
   text-align: center;
   margin-top: 15%;
-  font-size: xx-large;
+  font-size: 6vw;
 }
 
 ///// mobile responsive properties
@@ -54,42 +56,42 @@ guru {
 
 @-webkit-keyframes hvr-hang {
   0% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
   50% {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
   }
   100% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 @keyframes hvr-hang {
   0% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
   50% {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
   }
   100% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 @-webkit-keyframes hvr-hang-sink {
   100% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 @keyframes hvr-hang-sink {
   100% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 .hvr-hang {
@@ -98,8 +100,6 @@ guru {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
   -webkit-animation-duration: .3s, 1.5s;
@@ -114,4 +114,32 @@ guru {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+.hvr-icon-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-grow-rotate .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-grow-rotate:hover .hvr-icon, .hvr-icon-grow-rotate:focus .hvr-icon, .hvr-icon-grow-rotate:active .hvr-icon {
+  -webkit-transform: scale(1.5) rotate(12deg);
+  transform: scale(1.5) rotate(12deg);
+}
+.hvr-icon {
+  max-width: 18px;
+  margin-left: 10px;
 }
