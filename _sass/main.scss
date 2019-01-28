@@ -50,6 +50,11 @@ guru {
   margin: 3%;
 }
 
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+
 ///// mobile responsive properties
 
 @media only screen and (max-width: 700px) {

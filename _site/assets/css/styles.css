@@ -18,6 +18,8 @@ guru { font-family: Lucida Grande; display: block; width: 100%; position: relati
 
 .label { width: 50%; margin: 3%; }
 
+.ascii-art { font-family: monospace; white-space: pre; }
+
 @media only screen and (max-width: 700px) { nav { font-size: x-large; } }
 @-webkit-keyframes hvr-hang { 0% { -webkit-transform: translateY(20px); transform: translateY(20px); }
   50% { -webkit-transform: translateY(10px); transform: translateY(10px); }
