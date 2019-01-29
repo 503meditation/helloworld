@@ -8,25 +8,12 @@ layout: default
   {% for releases in site.releases %}
   <li>
     <h2>
-      <a
-        href="{{ releases.url | prepend:
-    site.baseurl }}"
-        >{{ releases.name }}</a
-      >
+      <a href="{{ releases.url }}">{{ releases.name }} [{{ releases.position }}]</a>
+      <img src="{{ releases.position }}.png" style="width:50%;display:flex;margin:5%;">
     </h2>
-    <h3>{{ releases.position }}</h3>
-    <p>{{ releases.content | markdownify }}</p>
   </li>
   {% endfor %}
 </ul>
-
-<div class="ascii-art">
-▄▄ • ▄• ▄▌▄▄▄  ▄• ▄▌    • ▌ ▄ ·. ▄▄▄ .·▄▄▄▄  ▪  ▄▄▄▄▄ ▄▄▄· ▄▄▄▄▄▪         ▐ ▄
-▐█ ▀ ▪█▪██▌▀▄ █·█▪██▌    ·██ ▐███▪▀▄.▀·██▪ ██ ██ •██  ▐█ ▀█ •██  ██ ▪     •█▌▐█
-▄█ ▀█▄█▌▐█▌▐▀▀▄ █▌▐█▌    ▐█ ▌▐▌▐█·▐▀▀▪▄▐█· ▐█▌▐█· ▐█.▪▄█▀▀█  ▐█.▪▐█· ▄█▀▄ ▐█▐▐▌
-▐█▄▪▐█▐█▄█▌▐█•█▌▐█▄█▌    ██ ██▌▐█▌▐█▄▄▌██. ██ ▐█▌ ▐█▌·▐█ ▪▐▌ ▐█▌·▐█▌▐█▌.▐▌██▐█▌
-·▀▀▀▀  ▀▀▀ .▀  ▀ ▀▀▀     ▀▀  █▪▀▀▀ ▀▀▀ ▀▀▀▀▀• ▀▀▀ ▀▀▀  ▀  ▀  ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪
-</div>
 
 <div class="footer">
 copyright ☯ by:
