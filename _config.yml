@@ -1,5 +1,5 @@
 collections:
-  releases:
+  sounds:
     output: true
 
 repository: 503meditation.github.io/helloworld
@@ -23,9 +23,9 @@ exclude:
 defaults:
   - scope:
       path: ""
-      type: "releases"
+      type: "sounds"
     values:
-      layout: "releases"
+      layout: "sounds"
   - scope:
       path: ""
       type: "posts"

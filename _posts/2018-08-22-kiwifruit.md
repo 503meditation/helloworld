@@ -1,6 +1,6 @@
 ---
 layout: post
-releases: guru002
+sounds: guru002
 ---
 
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible

@@ -19,11 +19,6 @@ The <u>USEFUL</u> guide to Guru Meditation !
 > "capacity for divergent thought -- which is kind of the definition of creativity -- means for vulnerabilities in psychological makeup"
 -->
 
-<div class="ascii-art">
-┌─┐┬ ┬┬─┐┬ ┬  ┌┬┐┌─┐┌┬┐┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌
-│ ┬│ │├┬┘│ │  │││├┤  │││ │ ├─┤ │ ││ ││││
-└─┘└─┘┴└─└─┘  ┴ ┴└─┘─┴┘┴ ┴ ┴ ┴ ┴ ┴└─┘┘└┘
-</div>
 
 <div class="footer">
 copyright ☯ by:

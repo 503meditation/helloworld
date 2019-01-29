@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>Sounds</h1>
+
+<ul>
+  {% for sounds in site.sounds %}
+  <li>
+    <h2>
+      <a href="{{ sounds.url }}">{{ sounds.name }} [{{ sounds.position }}]</a>
+      <img src="/sounds/{{ sounds.position | downcase }}.png" style="width:50%;display:flex;margin:5%;">
+    </h2>
+  </li>
+  {% endfor %}
+</ul>
+
+<div class="footer">
+copyright ☯ by:
+Guru Meditation
+2019
+all rights reserved
+</div>
