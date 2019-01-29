@@ -38,10 +38,22 @@ li {
 guru {
   font-family: Lucida Grande;
   display: block;
-  width: 100%;
+  width: 48%;
   position: relative;
-  text-align: center;
-  margin-top: 15%;
+  text-align: right;
+  margin-top: 18%;
+  margin-right: 2%;
+  font-size: 6vw;
+}
+
+guru-2 {
+  font-family: Lucida Grande;
+  display: block;
+  width: 48%;
+  position: relative;
+  text-align: left;
+  margin-top: 18%;
+  margin-left: 2%;
   font-size: 6vw;
 }
 
@@ -80,6 +92,18 @@ guru {
 @media only screen and (max-width: 750px) {
   nav {
     font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  guru {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  guru-2 {
+    margin-top: 40%;
   }
 }
 
@@ -146,6 +170,72 @@ guru {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+/// hvr hang speed 2
+
+@-webkit-keyframes hvr-hang-2 {
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}
+@keyframes hvr-hang-2 {
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(-50px);
+  }
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(-80px);
+  }
+}
+@-webkit-keyframes hvr-hang-sink-2 {
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}
+@keyframes hvr-hang-sink-2 {
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}
+.hvr-hang-2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: hvr-hang-sink-2, hvr-hang-2;
+  animation-name: hvr-hang-sink-2, hvr-hang-2;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/// hvr icon rotation
 
 .hvr-icon-grow-rotate {
   display: inline-block;
