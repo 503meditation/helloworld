@@ -11,9 +11,9 @@ The <u>USEFUL</u> guide to Guru Meditation !
 - Tracing a connector between computer electronics and therapeutic compositions
 - Demos/Requests/FunnyPics to <a href="mailto:guru_meditation@yahoo.com?subject=☯">guru_meditation@yahoo.com</a>
 
-# Quotes
+<!-- # Quotes
 
-> "capacity for divergent thought -- which is kind of the definition of creativity -- means for vulnerabilities in psychological makeup"
+> "capacity for divergent thought -- which is kind of the definition of creativity -- means for vulnerabilities in psychological makeup" -->
 
 <div class="ascii-art">
 ┌─┐┬ ┬┬─┐┬ ┬  ┌┬┐┌─┐┌┬┐┬┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌
