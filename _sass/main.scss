@@ -38,7 +38,7 @@ li {
 guru {
   font-family: Lucida Grande;
   display: block;
-  width: 48%;
+  width: 56%;
   position: relative;
   text-align: right;
   margin-top: 18%;
@@ -49,7 +49,7 @@ guru {
 guru-2 {
   font-family: Lucida Grande;
   display: block;
-  width: 48%;
+  width: 44%;
   position: relative;
   text-align: left;
   margin-top: 18%;
@@ -95,14 +95,15 @@ guru-2 {
   }
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
+@media screen and (orientation:portrait) {
   guru {
     margin-top: 50%;
   }
   guru-2 {
     margin-top: 50%;
+  }
+  nav {
+    font-size: x-large;
   }
 }
 

@@ -14,9 +14,9 @@ p { font-family: "Inconsolata", monospace; }
 
 li { font-family: "Inconsolata", monospace; }
 
-guru { font-family: Lucida Grande; display: block; width: 48%; position: relative; text-align: right; margin-top: 18%; margin-right: 2%; font-size: 6vw; }
+guru { font-family: Lucida Grande; display: block; width: 56%; position: relative; text-align: right; margin-top: 18%; margin-right: 2%; font-size: 6vw; }
 
-guru-2 { font-family: Lucida Grande; display: block; width: 48%; position: relative; text-align: left; margin-top: 18%; margin-left: 2%; font-size: 6vw; }
+guru-2 { font-family: Lucida Grande; display: block; width: 44%; position: relative; text-align: left; margin-top: 18%; margin-left: 2%; font-size: 6vw; }
 
 .label { float: right; width: 30%; padding: 2%; }
 
@@ -27,8 +27,9 @@ guru-2 { font-family: Lucida Grande; display: block; width: 48%; position: relat
 .static-footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #43AFC3; color: #EFD42F; text-align: center; }
 
 @media only screen and (max-width: 750px) { nav { font-size: x-large; } }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { guru { margin-top: 50%; }
-  guru-2 { margin-top: 50%; } }
+@media screen and (orientation: portrait) { guru { margin-top: 50%; }
+  guru-2 { margin-top: 50%; }
+  nav { font-size: x-large; } }
 @-webkit-keyframes hvr-hang { 0% { -webkit-transform: translateY(20px); transform: translateY(20px); }
   50% { -webkit-transform: translateY(10px); transform: translateY(10px); }
   100% { -webkit-transform: translateY(20px); transform: translateY(20px); } }
