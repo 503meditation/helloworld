@@ -4,12 +4,15 @@ layout: default
 
 <h1>Sounds</h1>
 
-<ul>
+<ul style="list-style-type:none;padding-inline-start:0;">
   {% for sounds in site.sounds %}
   <li>
     <h2>
-      <a href="{{ sounds.url }}">{{ sounds.name }} [{{ sounds.position }}]</a>
-      <img src="/sounds/{{ sounds.position | downcase }}.png" style="width:50%;display:flex;margin:5%;">
+      <br>
+      <img src="/sounds/{{ sounds.position | downcase }}.png" style="display:block;margin-left:auto;margin-right:auto;width:40%;">
+      <br>
+      <a href="{{ sounds.url }}" style="display:block;text-align:center;">{{ sounds.name }} [{{ sounds.position }}]</a>
+      <br>
     </h2>
   </li>
   {% endfor %}
