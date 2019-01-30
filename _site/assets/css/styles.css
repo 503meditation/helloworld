@@ -16,7 +16,13 @@ li { font-family: "Inconsolata", monospace; }
 
 guru { font-family: Lucida Grande; display: block; width: 52%; position: relative; text-align: right; margin-top: 18%; margin-right: 2%; font-size: 6vw; }
 
-guru-2 { font-family: Lucida Grande; display: block; width: 44%; position: relative; text-align: left; margin-top: 18%; margin-left: 2%; font-size: 6vw; }
+note-1 { font-family: Lucida Grande; display: inline; width: 5%; position: relative; text-align: center; margin-top: 18%; margin: 1%; font-size: 6vw; }
+
+note-2 { font-family: Lucida Grande; display: inline; width: 5%; position: relative; text-align: center; margin-top: 18%; margin: 1%; font-size: 6vw; }
+
+note-3 { font-family: Lucida Grande; display: inline; width: 5%; position: relative; text-align: center; margin-top: 18%; margin: 1%; font-size: 6vw; }
+
+note-4 { font-family: Lucida Grande; display: inline; width: 5%; position: relative; text-align: center; margin-top: 18%; margin: 1%; font-size: 6vw; }
 
 .label { float: right; width: 30%; padding: 2%; }
 
@@ -27,9 +33,12 @@ guru-2 { font-family: Lucida Grande; display: block; width: 44%; position: relat
 .static-footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #43AFC3; color: #EFD42F; text-align: center; }
 
 @media only screen and (max-width: 750px) { nav { font-size: x-large; } }
-@media screen and (orientation: portrait) { guru { margin-top: 50%; }
-  guru-2 { margin-top: 50%; }
-  nav { font-size: x-large; } }
+@media screen and (orientation: portrait) { guru { margin-top: 55%; }
+  note-1 { margin-top: 55%; }
+  note-2 { margin-top: 55%; }
+  note-3 { margin-top: 55%; }
+  note-4 { margin-top: 55%; }
+  nav { font-size: 5vw; } }
 @-webkit-keyframes hvr-hang { 0% { -webkit-transform: translateY(20px); transform: translateY(20px); }
   50% { -webkit-transform: translateY(10px); transform: translateY(10px); }
   100% { -webkit-transform: translateY(20px); transform: translateY(20px); } }
@@ -40,15 +49,45 @@ guru-2 { font-family: Lucida Grande; display: block; width: 44%; position: relat
 @keyframes hvr-hang-sink { 100% { -webkit-transform: translateY(20px); transform: translateY(20px); } }
 .hvr-hang { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-animation-name: hvr-hang-sink, hvr-hang; animation-name: hvr-hang-sink, hvr-hang; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
 
+@-webkit-keyframes hvr-hang-1 { 0% { -webkit-transform: translateY(30px); transform: translateY(30px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(20px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-1 { 0% { -webkit-transform: translateY(30px); transform: translateY(-30px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(-50px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(-80px); } }
+@-webkit-keyframes hvr-hang-sink-1 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-sink-1 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+.hvr-hang-1 { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-animation-name: hvr-hang-sink-1, hvr-hang-1; animation-name: hvr-hang-sink-1, hvr-hang-1; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
+
 @-webkit-keyframes hvr-hang-2 { 0% { -webkit-transform: translateY(30px); transform: translateY(30px); }
   50% { -webkit-transform: translateY(20px); transform: translateY(20px); }
   100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
-@keyframes hvr-hang-2 { 0% { -webkit-transform: translateY(30px); transform: translateY(-30px); }
+@keyframes hvr-hang-2 { 0% { -webkit-transform: translateY(30px); transform: translateY(-20px); }
   50% { -webkit-transform: translateY(20px); transform: translateY(-50px); }
   100% { -webkit-transform: translateY(30px); transform: translateY(-80px); } }
 @-webkit-keyframes hvr-hang-sink-2 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
 @keyframes hvr-hang-sink-2 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
 .hvr-hang-2 { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-animation-name: hvr-hang-sink-2, hvr-hang-2; animation-name: hvr-hang-sink-2, hvr-hang-2; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
+
+@-webkit-keyframes hvr-hang-3 { 0% { -webkit-transform: translateY(30px); transform: translateY(30px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(20px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-3 { 0% { -webkit-transform: translateY(30px); transform: translateY(-30px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(-50px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(-80px); } }
+@-webkit-keyframes hvr-hang-sink-3 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-sink-3 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+.hvr-hang-3 { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-animation-name: hvr-hang-sink-3, hvr-hang-3; animation-name: hvr-hang-sink-3, hvr-hang-3; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
+
+@-webkit-keyframes hvr-hang-4 { 0% { -webkit-transform: translateY(30px); transform: translateY(30px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(20px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-4 { 0% { -webkit-transform: translateY(30px); transform: translateY(-20px); }
+  50% { -webkit-transform: translateY(20px); transform: translateY(-50px); }
+  100% { -webkit-transform: translateY(30px); transform: translateY(-80px); } }
+@-webkit-keyframes hvr-hang-sink-4 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+@keyframes hvr-hang-sink-4 { 100% { -webkit-transform: translateY(30px); transform: translateY(30px); } }
+.hvr-hang-4 { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-animation-name: hvr-hang-sink-4, hvr-hang-4; animation-name: hvr-hang-sink-4, hvr-hang-4; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
 
 .hvr-icon-grow-rotate { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-transition-duration: 0.3s; transition-duration: 0.3s; }
 
