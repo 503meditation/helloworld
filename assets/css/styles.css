@@ -33,6 +33,11 @@ note-4 { font-family: Lucida Grande; display: inline; width: 5%; position: relat
 .static-footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #43AFC3; color: #EFD42F; text-align: center; }
 
 @media only screen and (max-width: 750px) { nav { font-size: x-large; } }
+@media only screen and (max-width: 1400px) { guru { margin-top: 25%; }
+  note-1 { margin-top: 25%; }
+  note-2 { margin-top: 25%; }
+  note-3 { margin-top: 25%; }
+  note-4 { margin-top: 25%; } }
 @media screen and (orientation: portrait) { guru { margin-top: 55%; }
   note-1 { margin-top: 55%; }
   note-2 { margin-top: 55%; }
