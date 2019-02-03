@@ -4,7 +4,7 @@ name: Z Lovecraft - Verge EP
 position: GURU001
 ---
 
-<img src="/releases/guru001.png" class="label" />
+<img src="/releases/guru001label.png" class="label" />
 
 get your RDA of focus, 3 of your 5 a day right here
 
