@@ -28,7 +28,7 @@ note-4 { font-family: Lucida Grande; display: inline; width: 5%; position: relat
 
 .label { float: right; width: 30%; padding: 2%; }
 
-.ascii-art { font-family: monospace; white-space: pre; margin: 2em; }
+.ascii-art { font-family: monospace; white-space: pre; margin: 2em; margin-left: 4em; }
 
 .listen { float: left; padding-top: 14vw; padding-left: 7vw; font-size: 3vw; }
 
