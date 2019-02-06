@@ -4,15 +4,17 @@ nav { font-family: "Inconsolata", monospace; display: block; text-align: center;
 
 nav a { padding-right: 0.3vw; }
 
-h1 { font-family: 'VT323', monospace; }
+h1 { font-family: 'VT323', monospace; margin: 1em; }
 
-h2 { font-family: 'VT323', monospace; }
+h2 { font-family: 'VT323', monospace; margin: 1.2em; }
 
-h3 { font-family: "Inconsolata", monospace; }
+h3 { font-family: "Inconsolata", monospace; margin: 1.4em; }
 
-p { font-family: "Inconsolata", monospace; }
+h4 { font-family: "Inconsolata", monospace; margin-left: 1.8em; margin-top: -1em; }
 
-li { font-family: "Inconsolata", monospace; }
+p { font-family: "Inconsolata", monospace; margin: 2em; }
+
+li { font-family: "Inconsolata", monospace; margin-left: 1em; }
 
 guru { font-family: Lucida Grande; display: block; width: 52%; position: relative; text-align: right; margin-top: 18%; margin-right: 2%; font-size: 6vw; }
 
@@ -26,7 +28,7 @@ note-4 { font-family: Lucida Grande; display: inline; width: 5%; position: relat
 
 .label { float: right; width: 30%; padding: 2%; }
 
-.ascii-art { font-family: monospace; white-space: pre; }
+.ascii-art { font-family: monospace; white-space: pre; margin: 2em; }
 
 .listen { float: left; padding-top: 17vw; padding-left: 7vw; font-size: 3vw; }
 
