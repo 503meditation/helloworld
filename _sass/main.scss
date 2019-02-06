@@ -30,6 +30,12 @@ h3 {
   margin: 1.4em;
 }
 
+h4 {
+  font-family: "Inconsolata", monospace;
+  margin-left: 1.8em;
+  margin-top: -1em;
+}
+
 p {
   font-family: "Inconsolata", monospace;
   margin: 2em;
@@ -37,7 +43,7 @@ p {
 
 li {
   font-family: "Inconsolata", monospace;
-  margin: 1em;
+  margin-left: 1em;
 }
 
 guru {
@@ -104,6 +110,7 @@ note-4 {
 .ascii-art {
   font-family: monospace;
   white-space: pre;
+  margin: 2em;
 }
 
 .listen {

@@ -15,7 +15,7 @@ title: Blog
         >{{ post.title }}</a
       >
     </h2>
-    <h3>{{ post.date | date: "%Y-%m-%d" }}</h3>
+    <h4>published: {{ post.date | date: "%d-%m-%Y" }}</h4>
     <p>{{ post.excerpt }}</p>
   </li>
   {% endfor %}
