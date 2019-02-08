@@ -18,7 +18,9 @@ Demos/Requests/FunnyPics to <a href="mailto:guru_meditation@yahoo.com?subject=�
 
 ## Links
 
-Some recommended inspirational hyperlinks:
+Navigate the .zone using hyperlinks like <a href="/hyperlink/">this</a>. Spend some time exploring the site via the navigation bar ⇪up top⇪
+
+Also, please find some recommended hyperlinks to sites that inspired the .zone below:
 
 - <a href="https://archive.org/details/info-magazine">INFO=64 Mag Archive</a>
 - <a href="https://www.libramix.org/">Libra Mix</a>
