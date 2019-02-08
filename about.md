@@ -28,6 +28,7 @@ Some recommended inspirational hyperlinks:
 - <a href="http://home.mcom.com/home/welcome.html">Welcome to Netscape</a>
 - <a href="https://blog.thetrilogytapes.com/">The Trilogy Tapes</a>
 - <a href="http://oldweb.today/">Old Web Today</a>
+- <a href="http://www.milliondollarhomepage.com/">Million Dollar Homepage</a>
 
 
 
