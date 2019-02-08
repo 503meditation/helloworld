@@ -18,7 +18,7 @@ Demos/Requests/FunnyPics to <a href="mailto:guru_meditation@yahoo.com?subject=�
 
 ## Links
 
-Navigate the .zone using hyperlinks like <a href="/hyperlink/">this</a>. Spend some time exploring the site via the navigation bar ⇪up top⇪
+Navigate the .zone using hyperlinks like <a href="https://gurumeditation.zone/hyperlink/">this</a>. Spend some time exploring the site via the links in the navigation bar ⇪up top⇪
 
 Also, please find some recommended hyperlinks to sites that inspired the .zone below:
 
