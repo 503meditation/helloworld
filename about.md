@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+You've made it: to the .zone, the central depository for all things Guru Meditation.
+
 # About
 
 The <u>USEFUL</u> guide to Guru Meditation !
