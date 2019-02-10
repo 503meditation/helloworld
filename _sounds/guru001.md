@@ -8,6 +8,8 @@ position: GURU001
 
 get your RDA of focus, 3 of your 5 a day right here
 
+<iframe class="player-embed" src="https://bandcamp.com/EmbeddedPlayer/album=2740629337/size=large/bgcol=ffffff/linkcol=63b2cc/artwork=small/transparent=true/" seamless><a href="http://503meditation.bandcamp.com/album/z-lovecraft-verge-ep">Z Lovecraft - Verge EP by Z Lovecraft</a></iframe>
+
 𝙕 𝙇𝙤𝙫𝙚𝙘𝙧𝙖𝙛𝙩 opens a channel into his musical universe with three diverse cuts pinned by mellow breaks, nintendo sequencers and crystal chords. nicely pressurized with springy ambience. known to treat data overloads and warp connection burnout from Peckham to Hyrule.
 
 a Rhythm Section family member and No Bad Days console controller, 𝙕 𝙇𝙤𝙫𝙚𝙘𝙧𝙖𝙛𝙩 steps out on the inaugural 𝙂𝙪𝙧𝙪 𝙈𝙚𝙙𝙞𝙩𝙖𝙩𝙞𝙤𝙣 disc
@@ -40,7 +42,3 @@ ___/ /   |       |       |
 │ ┬│ │├┬┘│ │  │││├┤  │││ │ ├─┤ │ ││ ││││
 └─┘└─┘┴└─└─┘  ┴ ┴└─┘─┴┘┴ ┴ ┴ ┴ ┴ ┴└─┘┘└┘
 </div>
-
-<br>
-
-<iframe class="player-embed" src="https://bandcamp.com/EmbeddedPlayer/album=2740629337/size=large/bgcol=ffffff/linkcol=63b2cc/artwork=small/transparent=true/" seamless><a href="http://503meditation.bandcamp.com/album/z-lovecraft-verge-ep">Z Lovecraft - Verge EP by Z Lovecraft</a></iframe>
