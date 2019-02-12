@@ -5,6 +5,8 @@ title: About
 
 You've made it: to the .zone, the central depository for all things Guru Meditation.
 
+Navigate the .zone using hyperlinks like <a href="https://gurumeditation.zone/hyperlink">this</a>. Spend some time exploring the site further via the links in the navigation bar ⇪up top⇪
+
 # About
 
 The <u>USEFUL</u> guide to Guru Meditation !
@@ -16,13 +18,11 @@ The <u>USEFUL</u> guide to Guru Meditation !
 
 ## Contact
 
-Demos/Requests/FunnyPics to <a href="mailto:guru_meditation@yahoo.com?subject=☯">guru_meditation@yahoo.com</a>
+Demos/Requests/FunnyPics to ~~MAILER-DAEMON@yahoo.com~~ <a href="mailto:guru_meditation@yahoo.com?subject=☯">guru_meditation@yahoo.com</a>
 
 ## Links
 
-Navigate the .zone using hyperlinks like <a href="https://gurumeditation.zone/hyperlink">this</a>. Spend some time exploring the site via the links in the navigation bar ⇪up top⇪
-
-Also, please find some recommended hyperlinks to sites that inspired the .zone below:
+Please find some recommended hyperlinks to sites that inspired the .zone below:
 
 - <a href="https://archive.org/details/info-magazine">INFO=64 Mag Archive</a>
 - <a href="https://www.libramix.org/">Libra Mix</a>
