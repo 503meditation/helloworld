@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://gurumeditation.zone/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gurumeditation.zone/" rel="alternate" type="text/html" /><updated>2019-02-11T17:09:58+00:00</updated><id>https://gurumeditation.zone/feed.xml</id><title type="html">helloworld</title><entry><title type="html">System Beeps</title><link href="https://gurumeditation.zone/2019/02/11/system-beeps.html" rel="alternate" type="text/html" title="System Beeps" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>https://gurumeditation.zone/2019/02/11/system-beeps</id><content type="html" xml:base="https://gurumeditation.zone/2019/02/11/system-beeps.html">&lt;p&gt;&lt;a href=&quot;https://habr.com/en/post/439192/&quot;&gt;PC Speaker To Eleven&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footer&quot;&gt;
-copyright ☯ by:
-Guru Meditation
-2019
-all rights reserved
-&lt;/div&gt;</content><author><name></name></author><summary type="html">PC Speaker To Eleven</summary></entry><entry><title type="html">Hello Wolrd</title><link href="https://gurumeditation.zone/2019/02/07/hello-wolrd.html" rel="alternate" type="text/html" title="Hello Wolrd" /><published>2019-02-07T00:00:00+00:00</published><updated>2019-02-07T00:00:00+00:00</updated><id>https://gurumeditation.zone/2019/02/07/hello-wolrd</id><content type="html" xml:base="https://gurumeditation.zone/2019/02/07/hello-wolrd.html">&lt;p&gt;Welcome to the gurumeditation.zone ツ&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://gurumeditation.zone/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gurumeditation.zone/" rel="alternate" type="text/html" /><updated>2019-02-12T17:55:18+00:00</updated><id>https://gurumeditation.zone/feed.xml</id><title type="html">helloworld</title><entry><title type="html">System Beeps</title><link href="https://gurumeditation.zone/2019/02/11/system-beeps.html" rel="alternate" type="text/html" title="System Beeps" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>https://gurumeditation.zone/2019/02/11/system-beeps</id><content type="html" xml:base="https://gurumeditation.zone/2019/02/11/system-beeps.html">&lt;p&gt;&lt;a href=&quot;https://habr.com/en/post/439192/&quot;&gt;PC Speaker To Eleven&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">PC Speaker To Eleven</summary></entry><entry><title type="html">Hello Wolrd</title><link href="https://gurumeditation.zone/2019/02/07/hello-wolrd.html" rel="alternate" type="text/html" title="Hello Wolrd" /><published>2019-02-07T00:00:00+00:00</published><updated>2019-02-07T00:00:00+00:00</updated><id>https://gurumeditation.zone/2019/02/07/hello-wolrd</id><content type="html" xml:base="https://gurumeditation.zone/2019/02/07/hello-wolrd.html">&lt;p&gt;Welcome to the gurumeditation.zone ツ&lt;/p&gt;
 
 &lt;p&gt;This site aims to form a centralised information resource for those seeking a deeper connection to the hybrid-media forms as developed and explored by artists of the Guru Meditation record label.&lt;/p&gt;
 
@@ -13,14 +6,7 @@ all rights reserved
 
 &lt;p&gt;A core belief and founding principle of Guru Meditation is the promotion of accessible and open source technologies for creators / consumers, side-stepping traditional didactic corporate platforms. By publishing content directly to the .zone, we can communicate and on a more honest level, away from the destructive grips of data harvesters masquerading as technical philanthropists.&lt;/p&gt;
 
-&lt;p&gt;This site was built (for free) with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and is hosted (for free) on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;. The entire codebase can be viewed by anyone directly from our public &lt;a href=&quot;https://github.com/503meditation/helloworld&quot;&gt;503meditation repo&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footer&quot;&gt;
-copyright ☯ by:
-Guru Meditation
-2019
-all rights reserved
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Welcome to the gurumeditation.zone ツ</summary></entry><entry><title type="html">System Requirements</title><link href="https://gurumeditation.zone/2018/11/08/System-Requirements.html" rel="alternate" type="text/html" title="System Requirements" /><published>2018-11-08T00:00:00+00:00</published><updated>2018-11-08T00:00:00+00:00</updated><id>https://gurumeditation.zone/2018/11/08/System-Requirements</id><content type="html" xml:base="https://gurumeditation.zone/2018/11/08/System-Requirements.html">&lt;p&gt;In this latest site upgrade (external v1.10a) a lot of new areas have been added and introducing: The new Bot page, to appear in the next update. The .zone has been changed around a LOT to accommodate the heavy traffic of GURU001 listeners cruising in. And the latest new area of interest, Links, is a collection of external links to some of the best sites on the web!&lt;/p&gt;
+&lt;p&gt;This site was built (for free) with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and is hosted (for free) on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;. The entire codebase can be viewed by anyone directly from our public &lt;a href=&quot;https://github.com/503meditation/helloworld&quot;&gt;503meditation repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the gurumeditation.zone ツ</summary></entry><entry><title type="html">System Requirements</title><link href="https://gurumeditation.zone/2018/11/08/System-Requirements.html" rel="alternate" type="text/html" title="System Requirements" /><published>2018-11-08T00:00:00+00:00</published><updated>2018-11-08T00:00:00+00:00</updated><id>https://gurumeditation.zone/2018/11/08/System-Requirements</id><content type="html" xml:base="https://gurumeditation.zone/2018/11/08/System-Requirements.html">&lt;p&gt;In this latest site upgrade (external v1.10a) a lot of new areas have been added and introducing: The new Bot page, to appear in the next update. The .zone has been changed around a LOT to accommodate the heavy traffic of GURU001 listeners cruising in. And the latest new area of interest, Links, is a collection of external links to some of the best sites on the web!&lt;/p&gt;
 
 &lt;p&gt;MAILER-DAEMON@yahoo.com&lt;/p&gt;</content><author><name></name></author><summary type="html">In this latest site upgrade (external v1.10a) a lot of new areas have been added and introducing: The new Bot page, to appear in the next update. The .zone has been changed around a LOT to accommodate the heavy traffic of GURU001 listeners cruising in. And the latest new area of interest, Links, is a collection of external links to some of the best sites on the web!</summary></entry><entry><title type="html">Guru001 Out Now!</title><link href="https://gurumeditation.zone/2018/07/06/GURU001-out-now!.html" rel="alternate" type="text/html" title="Guru001 Out Now!" /><published>2018-07-06T00:00:00+01:00</published><updated>2018-07-06T00:00:00+01:00</updated><id>https://gurumeditation.zone/2018/07/06/GURU001-out-now!</id><content type="html" xml:base="https://gurumeditation.zone/2018/07/06/GURU001-out-now!.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
 
@@ -47,11 +33,4 @@ _  `    \     /    `  _
     |    `.://'   |
     .'             `.
 _,'                 `,_
-&lt;/div&gt;
-
-&lt;div class=&quot;footer&quot;&gt;
-copyright ☯ by:
-Guru Meditation
-2019
-all rights reserved
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Users beware of CDC (Century Date Change) or FADL (Faulty Date Logic).</summary></entry></feed>

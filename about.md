@@ -35,7 +35,6 @@ Also, please find some recommended hyperlinks to sites that inspired the .zone b
 - <a href="http://www.milliondollarhomepage.com/">Million Dollar Homepage</a>
 
 
-
 <div class="footer">
 copyright ☯ by:
 Guru Meditation

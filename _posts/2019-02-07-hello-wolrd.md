@@ -11,10 +11,3 @@ Taking a more direct (and format agnostic) approach to more traditional knowledg
 A core belief and founding principle of Guru Meditation is the promotion of accessible and open source technologies for creators / consumers, side-stepping traditional didactic corporate platforms. By publishing content directly to the .zone, we can communicate and on a more honest level, away from the destructive grips of data harvesters masquerading as technical philanthropists.
 
 This site was built (for free) with <a href="https://jekyllrb.com/">Jekyll</a> and is hosted (for free) on <a href="https://pages.github.com/">GitHub pages</a>. The entire codebase can be viewed by anyone directly from our public <a href="https://github.com/503meditation/helloworld">503meditation repo</a>
-
-<div class="footer">
-copyright ☯ by:
-Guru Meditation
-2019
-all rights reserved
-</div>
