@@ -31,7 +31,7 @@ Please find some recommended hyperlinks to sites that inspired the .zone below:
 - <a href="http://www.2112.net/syrinx/about.htm">The Temple of Syrinx</a>
 - <a href="http://home.mcom.com/home/welcome.html">Welcome to Netscape</a>
 - <a href="https://blog.thetrilogytapes.com/">The Trilogy Tapes</a>
-- <a href="http://oldweb.today/">Old Web Today</a>
+- <a href="https://gifcities.org/">GifCities</a>
 - <a href="http://www.milliondollarhomepage.com/">Million Dollar Homepage</a>
 
 
