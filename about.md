@@ -16,6 +16,8 @@ The <u>USEFUL</u> guide to Guru Meditation !
 - The thought-song of man and machine
 - Dreaming of the 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫
 
+digital architecture inherits human emotion, see; <a href="http://www.melconway.com/Home/Conways_Law.html" target="blank">𝚌𝚘𝚗𝚠𝚊𝚢'𝚜 𝚕𝚊𝚠</a> & the etymology of <a href="https://en.wikipedia.org/wiki/Guru_Meditation" target="blank">'𝚐𝚞𝚛𝚞 𝚖𝚎𝚍𝚒𝚝𝚊𝚝𝚒𝚘𝚗'</a>
+
 ## Contact
 
 Demos/Requests/FunnyPics to ~~MAILER-DAEMON@yahoo.com~~ <a href="mailto:guru_meditation@yahoo.com?subject=☯">guru_meditation@yahoo.com</a>
@@ -24,18 +26,16 @@ Demos/Requests/FunnyPics to ~~MAILER-DAEMON@yahoo.com~~ <a href="mailto:guru_med
 
 Please find some recommended hyperlinks to sites that inspired the .zone below:
 
-- <a href="https://archive.org/details/info-magazine">INFO=64 Mag Archive</a>
-- <a href="https://www.libramix.org/">Libra Mix</a>
-- <a href="https://www.spacejam.com/archive/spacejam/movie/jam.htm">Space Jam</a>
-- <a href="https://paul.institute">Paul Institute</a>
-- <a href="http://www.kaossedgeofficial.com/">Kaoss Edge</a>
-- <a href="http://www.2112.net/syrinx/about.htm">The Temple of Syrinx</a>
-- <a href="http://home.mcom.com/home/welcome.html">Welcome to Netscape</a>
-- <a href="https://blog.thetrilogytapes.com/">The Trilogy Tapes</a>
-- <a href="https://gifcities.org/">GifCities</a>
-- <a href="http://www.milliondollarhomepage.com/">Million Dollar Homepage</a>
-- <a href="http://y2kaestheticinstitute.tumblr.com">Institute for Y2K Aesthetic</a>
-
+- <a href="https://archive.org/details/info-magazine" target="blank">INFO=64 Mag Archive</a>
+- <a href="https://www.libramix.org/" target="blank">Libra Mix</a>
+- <a href="https://www.spacejam.com/archive/spacejam/movie/jam.htm" target="blank">Space Jam</a>
+- <a href="https://paul.institute" target="blank">Paul Institute</a>
+- <a href="http://www.kaossedgeofficial.com/" target="blank">Kaoss Edge</a>
+- <a href="http://www.2112.net/syrinx/about.htm" target="blank">The Temple of Syrinx</a>
+- <a href="http://home.mcom.com/home/welcome.html" target="blank">Welcome to Netscape</a>
+- <a href="https://blog.thetrilogytapes.com/" target="blank">The Trilogy Tapes</a>
+- <a href="https://gifcities.org/" target="blank">GifCities</a>
+- <a href="http://www.milliondollarhomepage.com/" target="blank">Million Dollar Homepage</a>
 
 <div class="footer">
 copyright ☯ by:
