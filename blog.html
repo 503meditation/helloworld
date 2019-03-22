@@ -11,7 +11,7 @@ title: Blog
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <img class="preview" src="{{ post.img | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl }}"><img class="preview" src="{{ post.img | prepend: site.baseurl }}"></a>
     <h4>published: {{ post.date | date: "%d-%m-%Y" }}</h4>
     <p>{{ post.excerpt }}</p>
     <br>
