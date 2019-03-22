@@ -1,5 +1,6 @@
 ---
 layout: post
+img: /assets/img/welcome.gif
 ---
 
 Welcome to the **gurumeditation.zone** ツ

@@ -133,10 +133,19 @@ listen {
   padding: 2%;
 }
 
+.preview {
+  padding-left: 23px;
+  padding-bottom: 23px;
+  width: 25%;
+  max-width: 20vw;
+}
+
 .blogimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 85vw;
+  max-height: 50vw;
 }
 
 .ascii-art {

@@ -1,5 +1,6 @@
 ---
 layout: post
+img: /assets/img/system_beeps.jpg
 ---
 
 beyond the Guru Meditation sound-world, the .zone was built with the intention of collating art from across mediums and scenes to find a through-line between seemingly disparate areas of creative exploration. this post acts as the first in a series of looser posts shining some light on something that we recommend for the attention of .zone explorers ❦
