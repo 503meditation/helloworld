@@ -2,25 +2,26 @@
 
 https://gurumeditation.zone
 
-## Initial Git Setup
+## Jekyll
 
+Static site generation handled by [Jeykll](https://jekyllrb.com/), check there for further command level docs
+
+### New Setup
+
+- Clone this repo locally, pref using SSH
+- Install dependencies: xcode, homebrew, jekyll, ruby bundler
 ```bash
-$ cd ../helloworld
-$ rm -rf _site
-$ echo "_site/" >> .gitignore
-$ git worktree add _site gh-pages
+$ gem install bundler jekyll
+$ cd /helloworld/
+$ bundle install
 ```
+- `jekyll serve` to build the `_site` folder and deploy website to local server @ http://127.0.0.1:4000
+or
+- `jekyll build` to only build the `_site` folder
 
 ## Publish New Build to Pages
 
 make changes to master and use `jekyll build` to generate new `_site` folder
-
-use shortcut:
-
-```bash
-$ cd ../helloworld
-$ ./publish
-```
 
 which is automating the following commands, which can be achieved manually:
 
@@ -30,13 +31,6 @@ $ git add --all
 $ git commit -m "Deploy to gh-pages"
 $ git push origin gh-pages
 $ cd ..
-```
-
-_or_ carry out dual commits to both repos from new build(!):
-
-```bash
-$ cd ../helloworld
-$ ./fullpublish
 ```
 
 ## Config File
@@ -49,16 +43,16 @@ For technical reasons, this file is _NOT_ reloaded automatically when you use 'b
 
 These are used to personalize your new site. If you look in the HTML files, you will see them accessed via {{ site.title }}, {{ site.email }}, and so on. You can create any custom variable you would like, and they will be accessible in the templates via {{ site.myvariable }}.
 
-title: Guru Meditation
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+- title: Guru Meditation
+- email: your-email@example.com
+- description: >- # this means to ignore newlines until "baseurl:"
 Write an awesome description for your new site here. You can edit this
 line in \_config.yml. It will appear in your document head meta (for
 Google search results) and in your feed.xml site description.
 baseurl: "gurumeditation" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+- url: "" # the base hostname & protocol for your site, e.g. http://example.com
+- twitter_username: jekyllrb
+- github_username: jekyll
 
 ### Build settings
 

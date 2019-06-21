@@ -7,7 +7,7 @@ beyond the Guru Meditation sound-world, the .zone was built with the intention o
 
 let the data sharing commence..
 
-<img src="/assets/img/email.gif" class="blogimg" />
+<img src="/assets/img/email.gif" class="blogimg"/>
 
 ## Machine Music
 
@@ -27,4 +27,4 @@ If all this sounds interesting i mucho recommendo checking out shiru's full post
 
 respect to shiru8bit aka Александр Семенов (Alexander Semenov)
 
-<img src="/assets/img/cool.gif" class="blogimg" />
+<img src="/assets/img/cool.gif" class="blogimg"/>
