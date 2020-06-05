@@ -6,6 +6,10 @@ https://gurumeditation.zone
 
 Static site generation handled by [Jeykll](https://jekyllrb.com/), check there for further command level docs
 
+### Developer Notes
+
+use `bundle exec jekyll serve` to develop locally, then when ready to publish use `bundle exec jekyll build` to create `_site` folder for use in `gh-pages` branch which will be published live to production
+
 ### New Setup
 
 - Clone this repo locally, pref using SSH
